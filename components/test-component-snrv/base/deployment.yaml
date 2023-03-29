@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test-component-snrv
     spec:
       containers:
-      - image: quay.io/susdas/test-images:bd08083b894747019a7ba91b263ad8d8
+      - image: quay.io/susdas/test-images@sha256:0dd9fdb7df760c80da20ca92122ee5429670f635be5b231be7d869a0d89b6f59
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
